@@ -96,7 +96,7 @@ const Link = () => {
             <Button
               variant="ghost"
               onClick={() =>
-                navigator.clipboard.writeText(`https://trimrr.in/${link}`)
+                navigator.clipboard.writeText(`${baseUrl}/${link}`)
               }
             >
               <Copy />
