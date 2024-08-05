@@ -75,11 +75,11 @@ const Link = () => {
             {url?.title}
           </span>
           <a
-            href={`${baseUrl}/${link}`}
+            href={`${baseUrl}${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            {baseUrl}/{link}
+            {baseUrl}{link}
           </a>
           <a
             href={url?.original_url}
