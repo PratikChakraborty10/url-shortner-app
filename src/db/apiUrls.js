@@ -79,7 +79,7 @@ export async function createUrl(
   return data;
 }
 
-export async function getLongUrl(id) {
+export async function getLongUrl(id) {  
   let { data: shortLinkData, error: shortLinkError } = await supabase
     .from("urls")
     .select("id, original_url")
